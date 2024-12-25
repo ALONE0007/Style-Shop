@@ -2,7 +2,7 @@ let navMenu = document.getElementById('navMenu')
 let closeNavBar = document.getElementById('closeNavBar')
     
 closeNavBar.addEventListener("click",function(){
-    navMenu.style.right = '-900px'
+    navMenu.style.top = '-900px'
 })
 
 document.querySelector('.custom-element').addEventListener('click', function(event) {
@@ -18,7 +18,7 @@ document.querySelector('.custom-element').addEventListener('click', function(eve
     // Check if the click is within the bounds of the ::after element
     if (event.clientX >= afterLeft && event.clientX <= afterLeft + afterWidth &&
         event.clientY >= afterTop && event.clientY <= afterTop + afterHeight) {
-        navMenu.style.right = '0px'
+        navMenu.style.top = '0px'
         
     }
   });
