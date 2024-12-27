@@ -192,24 +192,14 @@
 
                     </div>
                     <!-- right hero -->
-                    <div class="bg-hero-color w-[50%] py-[500px] sm:py-[310px] -z-10 relative">
+                    <div class="bg-hero-color w-[50%] py-[450px] sm:py-[310px] -z-10 relative">
 
                         <div class="absolute right-0 bottom-0">
 
-                            <!-- buttons -->
-                            <div class="flex justify-center pb-4 gap-x-3">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 p-1 rotate-180 rounded-full ring-1 ring-slate-400 text-slate-400 cursor-pointer">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-                                  </svg>
-                                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 p-1 rounded-full ring-1 ring-white text-white cursor-pointer">
-                                    <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-                                  </svg>
-                             </div>
-
                              <!-- image -->
-                             <div class="flex gap-x-5">
-                                <img class="size-24 sm:size-32 md:size-40 object-cover" src="../img/hero bottom-1.png" alt="">
-                                <img class="h-24 sm:h-32 md:h-40 object-contain" src="../img/hero bottom-2.png" alt="">
+                             <div class="flex gap-x-5 justify-end items-end">
+                                <img class="size-16 sm:size-32 md:size-32 object-cover" src="../img/hero bottom-1.png" alt="">
+                                <img class="h-16 sm:h-32 md:h-32 object-contain" src="../img/hero bottom-2.png" alt="">
                             </div>
 
                             
@@ -245,37 +235,85 @@
     <main>
         <section class="bg-gray-100">
             <!-- product highlight -->
-             <div class="py-20">
+             <div class="pt-20 md:pb-20">
                 <h1 class="text-center text-3xl pb-3">Product Highlight</h1>
                 <p class="text-center">immerse yourself in the world of luxury  fashion with our meticulously crafted  designers clothes!</p>
                 <!-- product container -->
-                 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 items-center justify-between pt-10 px-10">
-                    <div class="flex justify-center">
-                        <img class="h-52 w-32 object-contain rounded // bg-[#D7D7D7] py-5" src="../img/Product Highlight img/product1.png" alt="">
+                <div class="hidden items-center justify-between pt-10 px-10 md:flex gap-x-5">
+                    <div class="flex justify-center h-52 w-32">
+                      <img class="object-contain rounded w-full bg-[#D7D7D7] py-5" src="../img/Product Highlight img/product1.png" alt="">
                     </div>
-                    <div class="flex justify-center">
-                        <img class="h-72 w-32 object-cover rounded // bg-[#EFEFF9] py-5" src="../img/Product Highlight img/product2.png" alt="">
+                    <div class="flex justify-center h-72 w-32">
+                      <img class="object-cover rounded w-full bg-[#EFEFF9] py-5" src="../img/Product Highlight img/product2.png" alt="">
                     </div>
-                    <div class="flex justify-center">
-                        <img class="h-80 object-contain rounded // bg-[#e6d5cf] py-5" src="../img/Product Highlight img/product3.png" alt="">
+                    <div class="flex justify-center h-80 w-52">
+                      <img class="object-contain rounded w-full bg-[#e6d5cf] py-5" src="../img/Product Highlight img/product3.png" alt="">
                     </div>
-                    <div class="flex justify-center">
-                        <img class="h-72 w-32 object-cover rounded // bg-[#EFEFF9] py-5" src="../img/Product Highlight img/product4.png" alt="">
+                    <div class="flex justify-center h-72 w-32">
+                      <img class="object-cover rounded w-full bg-[#EFEFF9] py-5" src="../img/Product Highlight img/product4.png" alt="">
                     </div>
-                    <div class="flex justify-center">
-                        <img class="h-52 w-32 object-contain rounded // bg-[#CEDEFE] py-5" src="../img/Product Highlight img/product5.png" alt="">
+                    <div class="flex justify-center h-52 w-32">
+                      <img class="object-contain rounded w-full bg-[#CEDEFE] py-5" src="../img/Product Highlight img/product5.png" alt="">
                     </div>
-                 </div>
+                  </div>
+
+                  <!-- swiper -->
+                <div class="flex justify-center items-center">
+                    <div class="md:hidden w-[65%] mt-20">
+                        <swiper-container>
+                            <swiper-slide>
+                                <div class="flex justify-center h-80 relative">
+                                    <img class="absolute right-4 top-4 size-11 -rotate-45 animate-pulse" src="../img/Product Highlight img/swipe.png" alt="">
+                                    <p class="absolute right-3 text-xs top-[55px] animate-pulse">swipe !</p>
+                                    <img class="object-contain rounded w-full bg-[#D7D7D7] py-5" src="../img/Product Highlight img/product1.png" alt="">
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div class="flex justify-center h-80 relative">
+                                    <img class="absolute right-4 top-4 size-11 -rotate-45 animate-pulse" src="../img/Product Highlight img/swipe.png" alt="">
+                                    <p class="absolute right-3 text-xs top-[55px] animate-pulse">swipe !</p>
+                                    <img class="object-contain rounded w-full bg-[#EFEFF9] py-5" src="../img/Product Highlight img/product2.png" alt="">
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div class="flex justify-center h-80 relative">
+                                    <img class="absolute right-4 top-4 size-11 -rotate-45 animate-pulse" src="../img/Product Highlight img/swipe.png" alt="">
+                                    <p class="absolute right-3 text-xs top-[55px] animate-pulse">swipe !</p>
+                                    <img class="object-contain rounded w-full bg-[#e6d5cf] py-5" src="../img/Product Highlight img/product3.png" alt="">
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div class="flex justify-center h-80 relative">
+                                    <img class="absolute right-4 top-4 size-11 -rotate-45 animate-pulse" src="../img/Product Highlight img/swipe.png" alt="">
+                                    <p class="absolute right-3 text-xs top-[55px] animate-pulse">swipe !</p>
+                                    <img class="object-contain rounded w-full bg-[#EFEFF9] py-5" src="../img/Product Highlight img/product4.png" alt="">
+                                </div>
+                            </swiper-slide>
+                            <swiper-slide>
+                                <div class="flex justify-center h-80 relative">
+                                    <img class="absolute right-4 top-4 size-11 -rotate-45 animate-pulse" src="../img/Product Highlight img/swipe.png" alt="">
+                                    <p class="absolute right-3 text-xs top-[55px] animate-pulse">swipe !</p>
+                                    <img class="object-contain rounded w-full bg-[#CEDEFE] py-5" src="../img/Product Highlight img/product5.png" alt="">
+                                </div>
+                            </swiper-slide>
+                        </swiper-container>
+                    </div>
+                </div>
+    
+    
+
+                
+                  
              </div>
             <!-- buttons of product highlight -->
-             <div class="flex justify-center relative gap-x-3 -top-10">
+             <!-- <div class="flex justify-center relative gap-x-3 -top-10">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 p-1 rotate-180 rounded-full ring-1 ring-gray-400 text-gray-400 cursor-pointer">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                   </svg>
                   <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 p-1 rounded-full ring-1 ring-black text-black cursor-pointer">
                     <path stroke-linecap="round" stroke-linejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5"></path>
                   </svg>
-             </div>
+             </div> -->
 
              <!-- new collection -->
               <div class="px-10 py-20">
@@ -670,11 +708,24 @@
         </section>
     </footer>
 
-    
 
 
 
        <script src="script.js"></script>
+       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+
+
+
+
+
+
+<!--  -->
+
+
+
+
+
+
    </body>
 
 
