@@ -10,3 +10,6 @@
     rotate: 180deg;
     transition: all 0.2s ease-in;
 }
+body,html{
+    overflow-x: hidden;
+}
