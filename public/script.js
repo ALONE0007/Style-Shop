@@ -34,7 +34,6 @@ let FAQElem = document.querySelectorAll("#faq");
 
 FAQElem.forEach(function (element) {
   element.addEventListener("click", function () {
-    console.log(element);
     FAQElem.forEach(function (item) {
       if (item !== element) {
         item.classList.remove("active-faq");
